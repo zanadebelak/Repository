@@ -12,11 +12,26 @@
 *.nav
 *.out
 *.pdf
+!slika.pdf
+!magic.pdf
+!matematika.pdf
 *.pyc
 *.snm
 *.synctex.gz
+*.synctex(busy)
 *latex-pregled
 *test
 
+# Arhivi, iz katerih smo datoteke že odpakirali
+*.zip
+
+# MacOS
+__MACOSX
+.DS_Store
+
 # Windows
-thumbs.db
+Thumbs.db
+
+# Python
+__pycache__
+*.pyc
